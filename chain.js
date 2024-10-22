@@ -31,5 +31,5 @@ const user2 = {
         country: 'Bangladesh'
     }
 }
-console.log(user.address.street?.second);
-console.log(user2.address.street?.second);
+// console.log(user.address.street?.second);
+// console.log(user2.address.street?.second);
