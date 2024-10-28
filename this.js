@@ -16,3 +16,27 @@ kodom.sleep();
 const sodrul = new person('Sodrul Mia', 36);
 console.log(sodrul);
 sodrul.sleep();
+
+
+// Practice
+function showThis() {
+    console.log(this);
+}
+// showThis();
+
+// console.log(this); 
+
+const obj = {
+    name: 'Alice',
+    greet() {
+        console.log(this.name);
+    }
+};
+// obj.greet(); // Logs 'Alice'
+
+function greet() {
+    console.log(this.name);
+}
+const object = { name: 'Alice' };
+// greet.call(object); // Logs 'Alice'
+
